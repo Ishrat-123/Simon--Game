@@ -1,0 +1,51 @@
+#level-title{
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+
+
+body{
+    text-align: center;
+    background-color:rgb(8, 31, 69) ;
+}
+
+
+.container{
+    display: block;
+    width:50%;
+    margin:auto;
+}
+
+.btn{
+    margin : 50px;
+    display: inline-block;
+    height:200px;
+    width:200px;
+    border: 10px solid black;
+    border-radius: 20px;
+   
+}
+.green{
+    background-color:green;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue {
+    background-color: blue;
+  }
+  
+
+.pressed{
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+.game-over{
+    background-color: rgb(162, 240, 17);
+    opacity: 0.8;
+  }
+  
